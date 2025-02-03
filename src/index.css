@@ -1,13 +1,18 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @custom-variant dark (&:where(.dark, .dark *));
 
 .dark body {
-    background-color: #1a202c; /* Dark mode background */
-    color: #f8f8f8; /* Light text */
-  }
+  background-color: #1a202c; /* Dark mode background */
+  color: #f8f8f8;
+}
 
-  .dark nav {
-    background-color: #1a202c; /* Dark Mode Navbar Background */
-    color: white; /* Dark Mode Navbar Text */
-  }
+.dark nav {
+  background-color: #1a202c;
+  color: white; /* Dark Mode Navbar Text */
+}
+
+.main-content {
+  margin-top: 3rem;
+  padding: 2rem;
+}
