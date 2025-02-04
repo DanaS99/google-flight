@@ -6,7 +6,7 @@ import Navbar from '../components/Navbar';
 const Main = () => (
   <div>
     <Navbar />  Navbar should only appear once
-    <div className="main-content">
+    <div>
       <Outlet />  
     </div>
   </div>
